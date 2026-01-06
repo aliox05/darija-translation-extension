@@ -1,0 +1,16 @@
+# Frontend
+frontend/node_modules/
+frontend/.env
+*.log
+
+# Backend
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+
+# General
+__pycache__/
+.DS_Store
+*.bak
+*.tmp

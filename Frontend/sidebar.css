@@ -1,0 +1,96 @@
+/* 🌄 Global theme */
+body {
+  background: linear-gradient(to bottom right, #fdf6e3, #fbeec1);
+  font-family: 'Segoe UI', sans-serif;
+  color: #3e2723;
+  padding: 16px;
+  margin: 0;
+}
+
+/* 🧾 Inputs and textarea */
+input, textarea {
+  width: 100%;
+  border: 1px solid #d7ccc8;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  background: #fff8e1;
+  color: #3e2723;
+}
+
+/* 📤 Output box */
+#outputText {
+  background: #fff3e0;
+  border: 1px solid #e0c097;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  white-space: pre-wrap;
+  margin-top: 12px;
+}
+
+/* 🔐 Auth buttons container */
+.login-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* Group Signup & Login */
+.auth-actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* ✨ Button base */
+button {
+  border: none;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* 🟡 Signup & Login */
+#signupBtn, #loginBtn {
+  background: #d4af37;
+  color: #fff;
+}
+
+#signupBtn:hover, #loginBtn:hover {
+  background: #b7950b;
+}
+
+/* 🚪 Logout */
+#logoutBtn {
+  background: #757575;
+  color: #fff;
+}
+
+#logoutBtn:hover {
+  background: #616161;
+}
+
+/* 🌐 Translate */
+#translateBtn {
+  background: #4e342e;
+  color: #fff;
+}
+
+#translateBtn:hover {
+  background: #3e2723;
+}
+
+#translateBtn:disabled {
+  background: #a1887f;
+  color: #eee;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+#translateBtn:disabled:hover {
+  background: #a1887f;
+}

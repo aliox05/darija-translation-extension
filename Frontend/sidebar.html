@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Translator Extension</title>
+  <link rel="stylesheet" href="sidebar.css" />
+</head>
+<body>
+  <!-- 🔐 Auth section -->
+  <div class="login-box">
+    <div class="auth-actions">
+      <input id="username" type="text" placeholder="Username" />
+      <input id="password" type="password" placeholder="Password" />
+      <button id="signupBtn">Signup</button>
+      <button id="loginBtn">Login</button>
+    </div>
+    <button id="logoutBtn">Logout</button>
+  </div>
+
+  <!-- 🌐 Translation section -->
+  <textarea id="inputText" placeholder="Enter text..."></textarea>
+  <button id="translateBtn">Translate</button>
+
+  <!-- 📤 Output -->
+  <div id="outputText"></div>
+
+  <script src="sidebar.js"></script>
+</body>
+</html>
